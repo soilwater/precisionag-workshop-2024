@@ -1,7 +1,9 @@
 matplotlib
 numpy
+shapely
 scipy
 pandas
+folium
 rasterio
 xarray
 rioxarray
