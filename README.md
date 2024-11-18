@@ -16,7 +16,11 @@ Gabriel da Rocha Hintz - Graduate Student in Cropping Systems at Kansas State Un
 - Clustering of multiple layers
 - Creating publication-quality figures
 
-### Preparation Checklist (don't wait until the last minute)
+### Preparation Checklist
 - Install Anaconda: We recommend using Anaconda for managing your Python environment.
 - Use your "gmail" account to create a Google Earth Engine (GEE) account: This is essential for accessing the GEE API during the workshop. It can take Google from a few hours to a couple of days to approve the request for a non-commercial account.
 - Follow the "setup_python_geospatial_analysis.ipynb" notebook to get all the modules installed.
+
+![maps](figures/ndvi_multiple_dates.jpg)
+
+**Figure:** Multiple NDVI images from Sentinel-2 used in this tutorial. Field management zones were delineated by calculating the mean relative difference of the NDVI maps, followed by clustering with a bisecting K-Means algorithm.
